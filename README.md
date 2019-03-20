@@ -15,6 +15,14 @@ then...
 
     const result = SCTE35.parseFromB64("<base64 string>");
 
+# Demo
+
+Visit https://comcast.github.io/scte35-js/ and paste the following in the text box and hit the `Parse` button:
+
+`/DBGAAET8J+pAP/wBQb+AAAAAAAwAi5DVUVJQAErgX+/CR9TSUdOQUw6OGlTdzllUWlGVndBQUFBQUFBQUJCQT09NwMDaJ6RZQ==`
+
+In order to deploy changes to the demo read the README found at https://github.com/Comcast/scte35-js/ui.
+
 # CLI
 
 Currently supported via the source
